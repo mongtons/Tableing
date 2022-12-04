@@ -1,0 +1,75 @@
+{{>layout/header}}
+<div id="page" class="site">
+    <div class="header-wrapper">
+        <div class='header  color-overlay' style='background-image:url(&quot;./images/hallym.jpg&quot;);'
+             data-parallax-depth='20'>
+            <div class="inner-header-description gridContainer">
+                <div class="row header-description-row">
+                    <h1 class="heading8"> 한림대학교 멘토링실 현황 </h1>
+                    <p class="header-subtitle">비콘 서비스</p>
+                </div>
+            </div>
+            <div class="header-separator header-separator-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+                <path class="svg-white-bg" d="M737.9,94.7L0,0v100h1000V0L737.9,94.7z" />
+            </svg></div>
+        </div>
+    </div>
+    <div id="page-content" class="page-content">
+        <div class="gridContainer">
+            <div id="post-53" class="post-53 page type-page status-publish hentry">
+                <div>
+                    <p class="has-text-align-center">한림대학교 멘토링실 현황입니다</p>
+                    <div class="wp-block-media-text alignwide is-stacked-on-mobile"
+                         style="grid-template-columns:15% auto">
+                        {{#firstEntity}}
+                            <figure class="wp-block-media-text__media">
+                                <img width="512" height="512" src={{imgSrc}} alt="" class="wp-image-103 size-full"
+                                     sizes="(max-width: 512px) 100vw, 512px" />
+                            </figure>
+                            <div class="wp-block-media-text__content">
+                                <p>{{result}}</p>
+                            </div>
+                        {{/firstEntity}}
+                    </div>
+                    <div class="wp-block-media-text alignwide is-stacked-on-mobile"
+                         style="grid-template-columns:15% auto">
+                        {{#secondEntity}}
+                            <figure class="wp-block-media-text__media">
+                                <img loading="lazy" width="512" height="512" src={{imgSrc}} alt="" class="wp-image-105 size-full"
+                                     sizes="(max-width: 512px) 100vw, 512px" />
+                            </figure>
+                            <div class="wp-block-media-text__content">
+                                <p>{{result}}</p>
+                            </div>
+                        {{/secondEntity}}
+                    </div>
+                    <div class="wp-block-media-text alignwide is-stacked-on-mobile"
+                         style="grid-template-columns:15% auto">
+                        {{#thirdEntity}}
+                            <figure class="wp-block-media-text__media">
+                                <img loading="lazy" width="512" height="512" src={{imgSrc}} alt="" class="wp-image-106 size-full"
+                                     sizes="(max-width: 512px) 100vw, 512px" />
+                            </figure>
+                            <div class="wp-block-media-text__content">
+                                <p>{{result}}</p>
+                            </div>
+                        {{/thirdEntity}}
+                    </div>
+                    <div class="wp-block-media-text alignwide is-stacked-on-mobile"
+                         style="grid-template-columns:15% auto">
+                        {{#fourthEntity}}
+                            <figure class="wp-block-media-text__media">
+                                <img loading="lazy" width="512" height="512" src={{imgSrc}} alt="" class="wp-image-108 size-full"
+                                     sizes="(max-width: 512px) 100vw, 512px" />
+                            </figure>
+                            <div class="wp-block-media-text__content">
+                                <p>{{result}}</p>
+                            </div>
+                        {{/fourthEntity}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{>layout/footer}}

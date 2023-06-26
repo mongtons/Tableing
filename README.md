@@ -7,4 +7,12 @@
 * Spring boot
 * IntelliJ
 * MySQL Server
+* BLE Beacon
+* Python
 ## 실행 요약
+&nbsp;스터디룸 이용자는 해당 스터디룸을 사용하는 의미로 BLE Beacon을 켜준다. Beacon은 Receiver에게 통신하여 받은 데이터를 MySQL DB로 전달한다. 또한 전달 받은 데이터를 실시간으로 웹페이지에 갱신시켜 다른 사용자는 해당 스터디룸, 멘토링실이 사용 중이라는 것을 확인할 수 있다.
+![image1](etc/img1.png)
+![image2](etc/img2.png)
+실행 사진: 북카페 스터디룸을 아무도 사용하지 않았을 때   
+![demo](etc/mentoring.gif)   
+사용자가 Beacon을 누르고 해당 멘토링실을 사용하면 실시간 좌석 현황 웹 페이지에 빈 책상 아이콘에서 사용자가 사용 중인 아이콘으로 바뀌게 된다.
